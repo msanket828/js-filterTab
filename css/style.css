@@ -88,21 +88,23 @@ nav ul li a {
 
 .filter-items {	
 	text-align: center;		
-	margin: 50px 0 0 0;
-	display: grid;
-	grid-template-columns: repeat(3,1fr);
-	row-gap: 10px;
-	column-gap: 10px;
+	margin: 50px 0 0 0;	
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 
 .filter-items li {	
 	vertical-align: top;
-	list-style: none;
+	list-style: none;	
+	flex: 1;
 }
 
 .filter-items li img {
-	width: 100%;
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
 }
 
 
